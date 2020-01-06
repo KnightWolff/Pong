@@ -5,6 +5,8 @@ import java.awt.event.ActionListener;
 
 public class Board extends JPanel implements ActionListener {
 
+    //Board class is meant to create and update the backboard on which the game is played, and all the objects on it.
+
      int WIDTH = 800;
      int HEIGHT = 600;
     private final int EDGESPACE = 50;
